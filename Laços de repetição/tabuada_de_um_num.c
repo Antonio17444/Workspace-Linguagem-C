@@ -2,14 +2,14 @@
 
 int main(){
     
-    float num;
+    int num;
 
     printf("Informe um numero: ");
-    scanf("%f",&num);
+    scanf("%d",&num);
 
     for (int i = 1; i <= num; i++){
         
-        printf("%.2f * %d = %.2f\n", num, i, num*i);
+        printf("%.2d * %d = %.2d\n", num, i, num*i);
 
     }
 
